@@ -1,0 +1,32 @@
+.dir ou ls = para listar o que tem dentro da pasta
+.cd =  para entrar em alguma pasta
+.clear ou cntrl + L = limpar o terminal
+.tab = ele autocompleta a palavra.
+.mkdir =  ele cria uma pasta.
+.echo hello = o echo repete o que você escreve. (echo hello > hello.txt) -  Ele cria um arquivo txt
+.mv arquivo.txt ./pasta/ =  move o arquivo.txt para a pasta "pasta".
+ 
+XXX (Geralmente quando comitamos, aparece nosso usuário lá, então as config iniciais são:)
+.git config --globaL user.email "pedrohenauth1212@gmail.com" (configuração inicial git)
+.git config --global user.name PedroHenauth (configuração inicial git)
+XXX
+
+. git add . = add . ele adiciona todos os arquivos
+. git add arquivo.txt = adiciona um arquivo
+. git commit -m "commit inicial" =  modo de comitar
+. git branch -M "main" = mudança de branch
+. git remote add origin <link do repositório> = dizendo para onde vai os arquivos, qual rep.
+. git push -u origin main = empurrando os arquivos para a origem main (comitando de vdd)
+. git remote -v = mostra a lista de repositórios cadastrados para não ficar repetindo o origin
+
+XXX trabalhando com códigos de times: Se houver atualizações no repositório e o seu código é o desatualizado
+
+git add <arquivo>
+git commit -m "--"
+git pull origin main = ele vai puxar todo o código novo que tem no repository e vai colocar no seu
+git push -u origin main
+se o repositorio já estiver linkado então: git push
+
+XXX 
+
+
